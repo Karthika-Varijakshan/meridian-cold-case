@@ -1,0 +1,17 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Python
+.venv/
+__pycache__/
+
+# Environment
+.env
+
+# Logs
+*.log
