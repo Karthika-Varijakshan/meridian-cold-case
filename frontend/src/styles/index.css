@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0D1016;
+    color: #E2E8F0;
+  }
+}
+
+/* Glassmorphism components */
+.glass-panel {
+  background: rgba(22, 27, 34, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-gold {
+  background: rgba(22, 27, 34, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 144, 46, 0.3);
+  box-shadow: 0 0 20px rgba(201, 144, 46, 0.15);
+}
+
+/* Custom Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D1016;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232B36;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9902E;
+}
+
+/* React Flow Dark Canvas overrides */
+.react-flow__renderer {
+  background-color: #0D1016 !important;
+}
+
+.react-flow__controls {
+  background: #161B22 !important;
+  border: 1px solid #232B36 !important;
+  border-radius: 8px !important;
+}
+
+.react-flow__controls-button {
+  background: #161B22 !important;
+  border-bottom: 1px solid #232B36 !important;
+  color: #C9902E !important;
+  fill: #C9902E !important;
+}
+
+.react-flow__controls-button:hover {
+  background: #232B36 !important;
+}
+
+.react-flow__minimap {
+  background: #161B22 !important;
+  border: 1px solid #232B36 !important;
+  border-radius: 8px !important;
+}
+
+/* Print Styles for Intelligence Report */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .glass-panel, .glass-panel-gold {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+  }
+}

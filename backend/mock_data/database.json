@@ -1,0 +1,708 @@
+{
+  "cases": [
+    {
+      "id": "CASE-1994-082",
+      "title": "Midnight Courier Homicide",
+      "status": "Cold",
+      "priority": "High",
+      "crime_type": "Homicide",
+      "location": "Chicago, IL",
+      "date": "1994-11-14",
+      "lead_investigator": "Det. Marcus Vance",
+      "summary": "Armored courier intercepted behind 14th St Rail Terminal. Driver fatally wounded, $420k cash missing. Distinctive 1991 Blue Ford Econoline van spotted leaving scene.",
+      "mo_description": "2-person tactical team, cut power lines, used military-grade wire cutters, 9mm suppressed rounds.",
+      "reopen_score": 92.4,
+      "confidence": 0.89,
+      "evidence_count": 8,
+      "witness_count": 4,
+      "linked_cases": ["CASE-2003-209", "CASE-2018-401", "CASE-2024-002"],
+      "witness_statements": [
+        {
+          "id": "WS-94-01",
+          "witness_name": "Arthur Pendelton",
+          "role": "Night Security Guard",
+          "statement": "Saw a tall man in a grey work jacket standing near phone booth 312-555-0188. Vehicle was a dark blue Ford Econoline van, plate matching partial IL-772.",
+          "date": "1994-11-15"
+        },
+        {
+          "id": "WS-94-02",
+          "witness_name": "Elena Rostova",
+          "role": "Diner Waitress",
+          "statement": "Overheard two men discussing 'Apex Storage' at 4400 South Pulaski Rd. One man had a teardrop tattoo under left eye alias 'Phantom'.",
+          "date": "1994-11-16"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-94-01", "type": "Ballistics", "name": "9mm Brass Casing (PMP)", "location": "Alleyway North", "status": "Analyzed", "ocr_text": "PMP 9mm Luger headstamp matching NATO surplus stock."},
+        {"id": "EVD-94-02", "type": "DNA", "name": "Cigarette Butt (Marlboro Red)", "location": "Behind Dumpster", "status": "DNA Profile Extracted", "ocr_text": "CODIS partial hit: Male Caucasian, Haplogroup R1b."},
+        {"id": "EVD-94-03", "type": "Document", "name": "Handwritten Note with Address", "location": "Victim's Jacket", "status": "Digitized", "ocr_text": "Call Victor @ 312-555-0188 re: 4400 S Pulaski Rd shipment."}
+      ]
+    },
+    {
+      "id": "CASE-1998-114",
+      "title": "Warehouse District Disappearance",
+      "status": "Cold",
+      "priority": "High",
+      "crime_type": "Missing Person / Abduction",
+      "location": "Detroit, MI",
+      "date": "1998-04-03",
+      "lead_investigator": "Det. Sarah Jenkins",
+      "summary": "Logistics manager Thomas Sterling vanished after late-night inventory check at Dock 7. Personal vehicle found burnt near 12th St.",
+      "mo_description": "Arson used to destroy forensic evidence, tracking device disabled, financial transfer initiated 2 hours prior.",
+      "reopen_score": 88.7,
+      "confidence": 0.85,
+      "evidence_count": 6,
+      "witness_count": 3,
+      "linked_cases": ["CASE-2005-012", "CASE-2017-023", "CASE-2025-061"],
+      "witness_statements": [
+        {
+          "id": "WS-98-01",
+          "witness_name": "Carl Jennings",
+          "role": "Dock Worker",
+          "statement": "Thomas received a phone call from 313-555-0144 at 11:15 PM and looked visible terrified before driving away.",
+          "date": "1998-04-04"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-98-01", "type": "Physical", "name": "Burnt Vehicle Key FOB", "location": "Vehicle Interior", "status": "Analyzed", "ocr_text": "Serial FL-982-DET"},
+        {"id": "EVD-98-02", "type": "Financial", "name": "Wire Transfer Receipt", "location": "Bank Vault Records", "status": "Verified", "ocr_text": "$85,000 sent to Apex Global Holdings Caymans account."}
+      ]
+    },
+    {
+      "id": "CASE-2001-045",
+      "title": "Metro Transit Station Assault",
+      "status": "Reopened",
+      "priority": "Medium",
+      "crime_type": "Aggravated Assault",
+      "location": "Philadelphia, PA",
+      "date": "2001-09-22",
+      "lead_investigator": "Det. Robert Hayes",
+      "summary": "Off-duty transit officer ambushed by two masked assailants carrying silenced firearms. Suspects fled in silver sedan.",
+      "mo_description": "Surveillance cut, stun grenade deployed, professional exit via subterranean maintenance tunnel.",
+      "reopen_score": 79.5,
+      "confidence": 0.82,
+      "evidence_count": 5,
+      "witness_count": 2,
+      "linked_cases": ["CASE-1994-082", "CASE-2015-188"],
+      "witness_statements": [
+        {
+          "id": "WS-01-01",
+          "witness_name": "Dr. Aris Thorne",
+          "role": "Commuter",
+          "statement": "Saw caller on phone 215-555-0199 reporting train delays just before lights failed.",
+          "date": "2001-09-23"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-01-01", "type": "Ballistics", "name": "Subsonic 9mm Casing", "location": "Platform 3", "status": "Analyzed", "ocr_text": "PMP 9mm NATO matching 1994 Chicago courier case."}
+      ]
+    },
+    {
+      "id": "CASE-2003-209",
+      "title": "Harbor Front Arson & Homicide",
+      "status": "Cold",
+      "priority": "High",
+      "crime_type": "Arson / Homicide",
+      "location": "Baltimore, MD",
+      "date": "2003-07-19",
+      "lead_investigator": "Det. Karen Lawson",
+      "summary": "Commercial boat yard warehouse fire resulting in fatality of watchman. Accelerant traces (thermite residue) detected.",
+      "mo_description": "Military accelerant, thermite ignition, security DVR hard drives removed.",
+      "reopen_score": 91.2,
+      "confidence": 0.91,
+      "evidence_count": 9,
+      "witness_count": 5,
+      "linked_cases": ["CASE-1994-082", "CASE-2018-401", "CASE-2020-077"],
+      "witness_statements": [
+        {
+          "id": "WS-03-01",
+          "witness_name": "Gregory Cross",
+          "role": "Harbor Master",
+          "statement": "Dark blue Ford Econoline van parked near pier with plates covered by mud. Driver spoke with heavy accent.",
+          "date": "2003-07-20"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-03-01", "type": "Chemical", "name": "Thermite Residue Sample", "location": "Door Hinge South", "status": "Lab Verified", "ocr_text": "Iron oxide & aluminum powder composition match military demolition grade."}
+      ]
+    },
+    {
+      "id": "CASE-2005-012",
+      "title": "Oakridge Estate Burglary Network",
+      "status": "Cold",
+      "priority": "Medium",
+      "crime_type": "Burglary / Organized Crime",
+      "location": "Atlanta, GA",
+      "date": "2005-02-11",
+      "lead_investigator": "Det. Brian O'Connor",
+      "summary": "High-value art & jewelry stolen from gated residential estate. Alarm system bypassed using master code.",
+      "mo_description": "Insider alarm override, laser bypass device, rapid 4-minute extraction.",
+      "reopen_score": 74.1,
+      "confidence": 0.78,
+      "evidence_count": 4,
+      "witness_count": 2,
+      "linked_cases": ["CASE-1998-114", "CASE-2014-310"],
+      "witness_statements": [],
+      "evidence": [
+        {"id": "EVD-05-01", "type": "Digital", "name": "Security Log Dump", "location": "Keypad Memory", "status": "Extracted", "ocr_text": "Code 8842-ENTER used by technician account 'Apex_Tech_04'."}
+      ]
+    },
+    {
+      "id": "CASE-2007-088",
+      "title": "Riverside Motel Missing Person",
+      "status": "Cold",
+      "priority": "High",
+      "crime_type": "Kidnapping / Missing Person",
+      "location": "St. Louis, MO",
+      "date": "2007-10-05",
+      "lead_investigator": "Det. Megan Wright",
+      "summary": "Investigative reporter Clara Higgins vanished from Room 214. Laptops, notebooks, and recorder missing.",
+      "mo_description": "Keycard clone, cell jammer deployed, vehicle towed using fake impound truck.",
+      "reopen_score": 86.4,
+      "confidence": 0.88,
+      "evidence_count": 7,
+      "witness_count": 4,
+      "linked_cases": ["CASE-2010-099", "CASE-2019-112"],
+      "witness_statements": [
+        {
+          "id": "WS-07-01",
+          "witness_name": "Derrick Cole",
+          "role": "Motel Manager",
+          "statement": "A man identifying as 'Victor Vance' rented Room 212 day prior. Paid cash. Phone 314-555-0177 registered to burner card.",
+          "date": "2007-10-06"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-07-01", "type": "Forensic", "name": "Cloned RFID Keycard", "location": "Room 214 Door Lock", "status": "Analyzed", "ocr_text": "Master RFID dump matching illegal reader hardware sold by Apex Security."}
+      ]
+    },
+    {
+      "id": "CASE-2009-173",
+      "title": "Blackwood Forest Unidentified Remains",
+      "status": "Cold",
+      "priority": "Medium",
+      "crime_type": "Homicide",
+      "location": "Portland, OR",
+      "date": "2009-06-18",
+      "lead_investigator": "Det. Sam Miller",
+      "summary": "Skeletal remains uncovered by hikers off Highway 26. Male 35-45, blunt force trauma to cranium.",
+      "mo_description": "Shallow grave, lime powder applied to accelerate decomposition, hands bound with heavy nylon zip ties.",
+      "reopen_score": 81.0,
+      "confidence": 0.84,
+      "evidence_count": 5,
+      "witness_count": 1,
+      "linked_cases": ["CASE-1998-114", "CASE-2022-019"],
+      "witness_statements": [],
+      "evidence": [
+        {"id": "EVD-09-01", "type": "DNA", "name": "Femur Bone Tissue Sample", "location": "Grave Site", "status": "GEDmatch Uploaded", "ocr_text": "Kinship link to Sterling family pedigree (Detroit, MI)."}
+      ]
+    },
+    {
+      "id": "CASE-2010-099",
+      "title": "Apex Financial Wire Fraud & Disappearance",
+      "status": "Cold",
+      "priority": "High",
+      "crime_type": "Financial Crime / Disappearance",
+      "location": "New York, NY",
+      "date": "2010-12-01",
+      "lead_investigator": "Det. Anthony Ricci",
+      "summary": "Chief Financial Officer Julian Mercer embezzled $14.2M and vanished before federal indictment.",
+      "mo_description": "Offshore shell companies, fraudulent invoice routing via Apex Storage & Logistics Corp.",
+      "reopen_score": 94.8,
+      "confidence": 0.94,
+      "evidence_count": 11,
+      "witness_count": 6,
+      "linked_cases": ["CASE-1994-082", "CASE-2007-088", "CASE-2023-104"],
+      "witness_statements": [
+        {
+          "id": "WS-10-01",
+          "witness_name": "Vanessa Lin",
+          "role": "Executive Assistant",
+          "statement": "Julian frequently met with a person known as 'The Architect' at 4400 S Pulaski Rd, Chicago.",
+          "date": "2010-12-03"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-10-01", "type": "Digital", "name": "Encrypted USB Flash Drive", "location": "Executive Desk", "status": "Decrypted", "ocr_text": "Contains ledger listing transactions to Victor Vance, Apex Logistics, and Swiss account 994-CH-82."}
+      ]
+    },
+    {
+      "id": "CASE-2012-054",
+      "title": "Westside Highway Hit-and-Run",
+      "status": "Solved",
+      "priority": "Low",
+      "crime_type": "Vehicular Manslaughter",
+      "location": "Los Angeles, CA",
+      "date": "2012-03-29",
+      "lead_investigator": "Det. Chloe Bennett",
+      "summary": "Pedestrian struck near Exit 14. Suspect vehicle abandoned 3 miles away in industrial parking structure.",
+      "mo_description": "High-speed flee, plates removed, wiper fluid used to wipe steering wheel.",
+      "reopen_score": 45.0,
+      "confidence": 0.99,
+      "evidence_count": 4,
+      "witness_count": 3,
+      "linked_cases": [],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2014-310",
+      "title": "Emerald Bay Yacht Club Robbery",
+      "status": "Cold",
+      "priority": "Medium",
+      "crime_type": "Armed Robbery",
+      "location": "Miami, FL",
+      "date": "2014-08-22",
+      "lead_investigator": "Det. Carlos Mendez",
+      "summary": "Masked gunmen boarded private yacht during gala, taking $2.1M in high-value watches and loose diamonds.",
+      "mo_description": "Approach via speedboat, night vision goggles, EMP frequency scrambler used to cut maritime radios.",
+      "reopen_score": 76.8,
+      "confidence": 0.81,
+      "evidence_count": 6,
+      "witness_count": 4,
+      "linked_cases": ["CASE-2005-012", "CASE-2018-401"],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2015-188",
+      "title": "Northside Armory Stolen Firearms",
+      "status": "Reopened",
+      "priority": "High",
+      "crime_type": "Weapons Trafficking",
+      "location": "Dallas, TX",
+      "date": "2015-05-14",
+      "lead_investigator": "Det. Hank Schrader",
+      "summary": "48 tactical carbines and 10,000 rounds of 9mm NATO ammunition stolen from licensed distributor warehouse.",
+      "mo_description": "Concrete wall breached with industrial plasma cutter, security alarm lines cut outside building.",
+      "reopen_score": 89.9,
+      "confidence": 0.90,
+      "evidence_count": 8,
+      "witness_count": 3,
+      "linked_cases": ["CASE-1994-082", "CASE-2001-045", "CASE-2024-002"],
+      "witness_statements": [],
+      "evidence": [
+        {"id": "EVD-15-01", "type": "Ballistics", "name": "Ammunition Crate Lot #PMP-94", "location": "Warehouse Floor", "status": "Matched", "ocr_text": "Batch PMP-94 NATO 9mm matches ballistics from Chicago 1994 and Philly 2001."}
+      ]
+    },
+    {
+      "id": "CASE-2017-023",
+      "title": "Silver Lake Cargo Hijacking",
+      "status": "Cold",
+      "priority": "Medium",
+      "crime_type": "Grand Larceny / Cargo Hijack",
+      "location": "Seattle, WA",
+      "date": "2017-11-09",
+      "lead_investigator": "Det. Laura Chen",
+      "summary": "Semi-truck transporting $1.8M worth of microchips hijacked along I-5 corridor. Driver found zip-tied in rest stop.",
+      "mo_description": "Fake police traffic stop with strobing lights, signal jammer on GPS transponder, trailer switched to blue Ford Econoline truck.",
+      "reopen_score": 83.2,
+      "confidence": 0.86,
+      "evidence_count": 7,
+      "witness_count": 2,
+      "linked_cases": ["CASE-1994-082", "CASE-1998-114", "CASE-2025-061"],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2018-401",
+      "title": "Downtown Jewelry Vault Raid",
+      "status": "Cold",
+      "priority": "High",
+      "crime_type": "Commercial Burglary",
+      "location": "Phoenix, AZ",
+      "date": "2018-02-14",
+      "lead_investigator": "Det. Mark Sterling",
+      "summary": "Subterranean tunnel drilled from adjacent storm drain into diamond vault. $6.5M in gems stolen over holiday weekend.",
+      "mo_description": "Thermal lance diamond cutting, seismograph vibration dampeners, synthetic oil poured on entry floor to destroy footprints.",
+      "reopen_score": 93.1,
+      "confidence": 0.92,
+      "evidence_count": 10,
+      "witness_count": 4,
+      "linked_cases": ["CASE-1994-082", "CASE-2003-209", "CASE-2014-310", "CASE-2024-002"],
+      "witness_statements": [
+        {
+          "id": "WS-18-01",
+          "witness_name": "Sgt. Daniel Frank",
+          "role": "Patrol Officer",
+          "statement": "Noticed dark blue Ford Econoline van with Illinois plates idling near 4400 Pulaski address listed on driver's license shown by suspect 'Victor Vance'.",
+          "date": "2018-02-15"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-18-01", "type": "Toolmark", "name": "Industrial Drill Bit (3-inch Diamond)", "location": "Vault Wall", "status": "Analyzed", "ocr_text": "Serial matching Apex Industrial Supply order #8841."}
+      ]
+    },
+    {
+      "id": "CASE-2019-112",
+      "title": "Pine Crest Motel Stalking & Assault",
+      "status": "Cold",
+      "priority": "Medium",
+      "crime_type": "Stalking / Assault",
+      "location": "Denver, CO",
+      "date": "2019-09-03",
+      "lead_investigator": "Det. Rachel Adams",
+      "summary": "Corporate auditor targeted in hotel room. Encrypted hard drive containing forensic accounting files taken.",
+      "mo_description": "Surveillance camera blinded with infrared laser, electronic keycard bypass, silent retreat.",
+      "reopen_score": 77.4,
+      "confidence": 0.83,
+      "evidence_count": 5,
+      "witness_count": 2,
+      "linked_cases": ["CASE-2007-088", "CASE-2010-099"],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2020-077",
+      "title": "Industrial Park Chemical Theft",
+      "status": "Cold",
+      "priority": "Medium",
+      "crime_type": "Hazardous Material Theft",
+      "location": "Houston, TX",
+      "date": "2020-04-18",
+      "lead_investigator": "Det. Tom Bradley",
+      "summary": "500kg of precursor chemicals stolen from chemical storage depot. Security guards rendered unconscious with gas.",
+      "mo_description": "Ventilation duct injection of knockout agent, thermite blowtorch used on heavy padlock.",
+      "reopen_score": 85.0,
+      "confidence": 0.87,
+      "evidence_count": 6,
+      "witness_count": 3,
+      "linked_cases": ["CASE-2003-209", "CASE-2015-188"],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2021-255",
+      "title": "Harbor Line Container Syndicate",
+      "status": "Active",
+      "priority": "High",
+      "crime_type": "Organized Crime / Smuggling",
+      "location": "Boston, MA",
+      "date": "2021-12-10",
+      "lead_investigator": "Det. Sean O'Malley",
+      "summary": "Port authority shipping containers systematically looted before customs inspection. Intercepted phone logs reveal central broker.",
+      "mo_description": "Cloned container seals, falsified manifest documents, encrypted WhatsApp & Telegram comms.",
+      "reopen_score": 87.2,
+      "confidence": 0.89,
+      "evidence_count": 8,
+      "witness_count": 5,
+      "linked_cases": ["CASE-1998-114", "CASE-2017-023", "CASE-2025-061"],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2022-019",
+      "title": "Tri-State Highway Robbery Series",
+      "status": "Cold",
+      "priority": "High",
+      "crime_type": "Armed Robbery / Gang Action",
+      "location": "Cleveland, OH",
+      "date": "2022-08-30",
+      "lead_investigator": "Det. Paul Walker",
+      "summary": "Series of 4 highway rest stop ATM explosions using improvised thermite and wire cutters.",
+      "mo_description": "Thermite ignition, military zip ties on rear emergency doors, dark blue Ford Econoline van spotted.",
+      "reopen_score": 90.5,
+      "confidence": 0.91,
+      "evidence_count": 7,
+      "witness_count": 4,
+      "linked_cases": ["CASE-1994-082", "CASE-2003-209", "CASE-2018-401"],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2023-104",
+      "title": "Redline Crypto Exchange Intrusion",
+      "status": "Active",
+      "priority": "High",
+      "crime_type": "Cybercrime / Extortion",
+      "location": "San Jose, CA",
+      "date": "2023-03-12",
+      "lead_investigator": "Det. Kevin Patel",
+      "summary": "$32M drained from cryptocurrency cold storage via compromised admin credentials associated with offshore entity Apex Global.",
+      "mo_description": "Spear phishing, session hijacking, wire laundering through Cayman shell accounts.",
+      "reopen_score": 89.1,
+      "confidence": 0.93,
+      "evidence_count": 9,
+      "witness_count": 3,
+      "linked_cases": ["CASE-1998-114", "CASE-2010-099"],
+      "witness_statements": [],
+      "evidence": []
+    },
+    {
+      "id": "CASE-2024-002",
+      "title": "Union Station Cash-in-Transit Ambush",
+      "status": "Active",
+      "priority": "High",
+      "crime_type": "Armed Robbery / Homicide",
+      "location": "Chicago, IL",
+      "date": "2024-01-20",
+      "lead_investigator": "Det. Marcus Vance",
+      "summary": "Armored vehicle ambushed at loading ramp. 1 guard killed. 9mm suppressed fire and thermite used on door lock.",
+      "mo_description": "2-person tactical team, cut power grid, thermite door breach, 9mm PMP NATO suppressed rounds.",
+      "reopen_score": 96.5,
+      "confidence": 0.96,
+      "evidence_count": 12,
+      "witness_count": 7,
+      "linked_cases": ["CASE-1994-082", "CASE-2003-209", "CASE-2015-188", "CASE-2018-401"],
+      "witness_statements": [
+        {
+          "id": "WS-24-01",
+          "witness_name": "Tanya Brooks",
+          "role": "Station Dispatcher",
+          "statement": "Saw blue Ford Econoline van (IL plates) register near alley. Driver called 312-555-0188 right before ambush.",
+          "date": "2024-01-21"
+        }
+      ],
+      "evidence": [
+        {"id": "EVD-24-01", "type": "Ballistics", "name": "9mm NATO Casing (PMP Headstamp)", "location": "Loading Ramp", "status": "Matched", "ocr_text": "Identical tooling marks to 1994 Chicago Courier homicide!"},
+        {"id": "EVD-24-02", "type": "DNA", "name": "Touch DNA on Thermite Canister", "location": "Door Lock", "status": "Matched", "ocr_text": "CODIS profile match to Victor Vance (DOB 1968-04-12)."}
+      ]
+    },
+    {
+      "id": "CASE-2025-061",
+      "title": "Apex Logistics Warehouse Theft",
+      "status": "Under Review",
+      "priority": "High",
+      "crime_type": "Cargo Theft / Burglary",
+      "location": "Indianapolis, IN",
+      "date": "2025-05-18",
+      "lead_investigator": "Det. Hannah Abbott",
+      "summary": "Electronics cargo stolen from Apex Logistics depot at 4400 S Pulaski Rd regional hub. Internal guard compromised.",
+      "mo_description": "Inside job keycode entry, RFID clone keycard, cargo loaded onto blue Ford Econoline.",
+      "reopen_score": 91.8,
+      "confidence": 0.92,
+      "evidence_count": 7,
+      "witness_count": 3,
+      "linked_cases": ["CASE-1994-082", "CASE-1998-114", "CASE-2010-099", "CASE-2024-002"],
+      "witness_statements": [],
+      "evidence": []
+    }
+  ],
+  "entities": [
+    {
+      "id": "ENT-PER-01",
+      "type": "Person",
+      "name": "Victor Vance",
+      "category": "Primary Suspect",
+      "details": "Alias 'The Architect' / 'Phantom'. Known operative connected to multi-state heist syndicate. Born 1968-04-12. Teardrop tattoo under left eye.",
+      "cases_linked": ["CASE-1994-082", "CASE-2007-088", "CASE-2010-099", "CASE-2018-401", "CASE-2024-002"]
+    },
+    {
+      "id": "ENT-PER-02",
+      "type": "Person",
+      "name": "Julian Mercer",
+      "category": "Suspect / Fugitive",
+      "details": "Former CFO Apex Financial. Embezzled $14.2M. Believed hiding in offshore jurisdiction.",
+      "cases_linked": ["CASE-2010-099", "CASE-2019-112", "CASE-2023-104"]
+    },
+    {
+      "id": "ENT-PER-03",
+      "type": "Person",
+      "name": "Thomas Sterling",
+      "category": "Victim / Missing",
+      "details": "Disappeared 1998 Detroit. Kinship match found in 2009 Oregon grave site.",
+      "cases_linked": ["CASE-1998-114", "CASE-2009-173"]
+    },
+    {
+      "id": "ENT-PER-04",
+      "type": "Person",
+      "name": "Clara Higgins",
+      "category": "Victim / Journalist",
+      "details": "Investigative reporter missing since 2007 St. Louis motel abduction.",
+      "cases_linked": ["CASE-2007-088"]
+    },
+    {
+      "id": "ENT-PER-05",
+      "type": "Person",
+      "name": "Elena Rostova",
+      "category": "Witness",
+      "details": "Diner waitress who identified suspect conversation in 1994.",
+      "cases_linked": ["CASE-1994-082"]
+    },
+    {
+      "id": "ENT-VEH-01",
+      "type": "Vehicle",
+      "name": "1991 Blue Ford Econoline Van",
+      "category": "Getaway Vehicle",
+      "details": "Distinctive dark blue van with heavy roof rack, partial plate IL-772 / IL-882. Spotted across 6 heist crime scenes.",
+      "cases_linked": ["CASE-1994-082", "CASE-2003-209", "CASE-2017-023", "CASE-2018-401", "CASE-2022-019", "CASE-2024-002", "CASE-2025-061"]
+    },
+    {
+      "id": "ENT-VEH-02",
+      "type": "Vehicle",
+      "name": "Silver Audi A6 Sedan",
+      "category": "Suspect Vehicle",
+      "details": "Registered to shell company Apex Global Holdings. Used in Philadelphia 2001 assault.",
+      "cases_linked": ["CASE-2001-045", "CASE-2005-012"]
+    },
+    {
+      "id": "ENT-ADD-01",
+      "type": "Address",
+      "name": "4400 South Pulaski Rd, Chicago, IL",
+      "category": "Syndicate Hub / Warehouse",
+      "details": "Former Apex Storage facility identified as central planning hub for Victor Vance and corporate front Apex Logistics.",
+      "cases_linked": ["CASE-1994-082", "CASE-2010-099", "CASE-2018-401", "CASE-2025-061"]
+    },
+    {
+      "id": "ENT-ADD-02",
+      "type": "Address",
+      "name": "Riverside Motel Room 214, St. Louis, MO",
+      "category": "Crime Scene",
+      "details": "Abduction site of Clara Higgins.",
+      "cases_linked": ["CASE-2007-088"]
+    },
+    {
+      "id": "ENT-PHO-01",
+      "type": "Phone",
+      "name": "+1 (312) 555-0188",
+      "category": "Burner Line",
+      "details": "Linked to Victor Vance. Used minutes before 1994 Chicago courier hit and 2024 Union Station ambush.",
+      "cases_linked": ["CASE-1994-082", "CASE-2018-401", "CASE-2024-002"]
+    },
+    {
+      "id": "ENT-PHO-02",
+      "type": "Phone",
+      "name": "+1 (313) 555-0144",
+      "category": "Burner Line",
+      "details": "Incoming call to Thomas Sterling immediately prior to his 1998 abduction.",
+      "cases_linked": ["CASE-1998-114"]
+    },
+    {
+      "id": "ENT-PHO-03",
+      "type": "Phone",
+      "name": "+1 (314) 555-0177",
+      "category": "Motel Reservation Contact",
+      "details": "Used by 'Victor Vance' cash check-in at Riverside Motel in 2007.",
+      "cases_linked": ["CASE-2007-088"]
+    },
+    {
+      "id": "ENT-ORG-01",
+      "type": "Organization",
+      "name": "Apex Storage & Logistics Corp",
+      "category": "Corporate Front",
+      "details": "Offshore shell organization used for money laundering, warehouse leasing, and shipping container manipulation.",
+      "cases_linked": ["CASE-1994-082", "CASE-1998-114", "CASE-2010-099", "CASE-2021-255", "CASE-2023-104", "CASE-2025-061"]
+    },
+    {
+      "id": "ENT-ORG-02",
+      "type": "Organization",
+      "name": "PMP Ballistics Military Surplus",
+      "category": "Ammunition Supplier",
+      "details": "Manufacturer of specific 9mm NATO subsonic lot #PMP-94 used across 3 homicide/assault cases.",
+      "cases_linked": ["CASE-1994-082", "CASE-2001-045", "CASE-2015-188", "CASE-2024-002"]
+    },
+    {
+      "id": "ENT-SOC-01",
+      "type": "Social Account",
+      "name": "@phantom_apex (Telegram)",
+      "category": "Encrypted Handle",
+      "details": "Encrypted comms channel referenced in digital evidence for heist coordination.",
+      "cases_linked": ["CASE-2021-255", "CASE-2023-104"]
+    },
+    {
+      "id": "ENT-SOC-02",
+      "type": "Social Account",
+      "name": "DarkNet Forum ID: #Architect_99",
+      "category": "Cyber Crime Identity",
+      "details": "Moniker offering master keycard bypass dumps and wire transfer routing scripts.",
+      "cases_linked": ["CASE-2005-012", "CASE-2007-088", "CASE-2023-104"]
+    },
+    {
+      "id": "ENT-EVD-01",
+      "type": "Evidence",
+      "name": "PMP 9mm NATO Headstamp Casing",
+      "category": "Ballistics",
+      "details": "Identical firing pin impressions and lot numbers found at 1994, 2001, and 2024 scenes.",
+      "cases_linked": ["CASE-1994-082", "CASE-2001-045", "CASE-2015-188", "CASE-2024-002"]
+    },
+    {
+      "id": "ENT-EVD-02",
+      "type": "Evidence",
+      "name": "Thermite Demolition Compound",
+      "category": "Chemical / Explosive",
+      "details": "Thermite incendiary mixture used to destroy door locks in Baltimore (2003), Phoenix (2018), Cleveland (2022), and Chicago (2024).",
+      "cases_linked": ["CASE-2003-209", "CASE-2018-401", "CASE-2020-077", "CASE-2022-019", "CASE-2024-002"]
+    }
+  ],
+  "graph_edges": [
+    {"source": "ENT-PER-01", "target": "CASE-1994-082", "label": "Appears In", "weight": 0.95},
+    {"source": "ENT-PER-01", "target": "CASE-2007-088", "label": "Visited", "weight": 0.88},
+    {"source": "ENT-PER-01", "target": "CASE-2010-099", "label": "Associated With", "weight": 0.90},
+    {"source": "ENT-PER-01", "target": "CASE-2018-401", "label": "Appears In", "weight": 0.94},
+    {"source": "ENT-PER-01", "target": "CASE-2024-002", "label": "Appears In", "weight": 0.98},
+    {"source": "ENT-PER-01", "target": "ENT-VEH-01", "label": "Owns", "weight": 0.92},
+    {"source": "ENT-PER-01", "target": "ENT-PHO-01", "label": "Uses", "weight": 0.96},
+    {"source": "ENT-PER-01", "target": "ENT-ADD-01", "label": "Visited", "weight": 0.91},
+    {"source": "ENT-VEH-01", "target": "CASE-1994-082", "label": "Appears In", "weight": 0.90},
+    {"source": "ENT-VEH-01", "target": "CASE-2003-209", "label": "Appears In", "weight": 0.87},
+    {"source": "ENT-VEH-01", "target": "CASE-2017-023", "label": "Appears In", "weight": 0.85},
+    {"source": "ENT-VEH-01", "target": "CASE-2018-401", "label": "Appears In", "weight": 0.93},
+    {"source": "ENT-VEH-01", "target": "CASE-2022-019", "label": "Appears In", "weight": 0.89},
+    {"source": "ENT-VEH-01", "target": "CASE-2024-002", "label": "Appears In", "weight": 0.96},
+    {"source": "ENT-VEH-01", "target": "CASE-2025-061", "label": "Appears In", "weight": 0.91},
+    {"source": "ENT-ADD-01", "target": "CASE-1994-082", "label": "Associated With", "weight": 0.89},
+    {"source": "ENT-ADD-01", "target": "CASE-2010-099", "label": "Associated With", "weight": 0.95},
+    {"source": "ENT-ADD-01", "target": "CASE-2018-401", "label": "Associated With", "weight": 0.92},
+    {"source": "ENT-ADD-01", "target": "CASE-2025-061", "label": "Associated With", "weight": 0.94},
+    {"source": "ENT-ADD-01", "target": "ENT-ORG-01", "label": "Associated With", "weight": 0.98},
+    {"source": "ENT-PHO-01", "target": "CASE-1994-082", "label": "Called", "weight": 0.92},
+    {"source": "ENT-PHO-01", "target": "CASE-2018-401", "label": "Called", "weight": 0.89},
+    {"source": "ENT-PHO-01", "target": "CASE-2024-002", "label": "Called", "weight": 0.97},
+    {"source": "ENT-PER-02", "target": "CASE-2010-099", "label": "Appears In", "weight": 0.96},
+    {"source": "ENT-PER-02", "target": "CASE-2019-112", "label": "Associated With", "weight": 0.82},
+    {"source": "ENT-PER-02", "target": "CASE-2023-104", "label": "Associated With", "weight": 0.88},
+    {"source": "ENT-PER-02", "target": "ENT-ORG-01", "label": "Uses", "weight": 0.94},
+    {"source": "ENT-EVD-01", "target": "CASE-1994-082", "label": "Appears In", "weight": 0.95},
+    {"source": "ENT-EVD-01", "target": "CASE-2001-045", "label": "Appears In", "weight": 0.90},
+    {"source": "ENT-EVD-01", "target": "CASE-2015-188", "label": "Appears In", "weight": 0.92},
+    {"source": "ENT-EVD-01", "target": "CASE-2024-002", "label": "Appears In", "weight": 0.99},
+    {"source": "ENT-EVD-01", "target": "ENT-ORG-02", "label": "Associated With", "weight": 0.96},
+    {"source": "ENT-EVD-02", "target": "CASE-2003-209", "label": "Appears In", "weight": 0.89},
+    {"source": "ENT-EVD-02", "target": "CASE-2018-401", "label": "Appears In", "weight": 0.94},
+    {"source": "ENT-EVD-02", "target": "CASE-2020-077", "label": "Appears In", "weight": 0.86},
+    {"source": "ENT-EVD-02", "target": "CASE-2022-019", "label": "Appears In", "weight": 0.91},
+    {"source": "ENT-EVD-02", "target": "CASE-2024-002", "label": "Appears In", "weight": 0.97}
+  ],
+  "patterns": [
+    {
+      "id": "PAT-01",
+      "title": "Tactical Heist Syndicate Signature MO",
+      "type": "Common MO",
+      "pattern_strength": "Very High (96%)",
+      "risk_score": 9.4,
+      "description": "2-person tactical assault squad employing power line sabotage, thermite door breach, and PMP 9mm NATO suppressed rounds across 5 major cash/vault robberies.",
+      "recurring_entities": ["1991 Blue Ford Econoline Van", "PMP 9mm NATO Headstamp Casing", "Thermite Demolition Compound"],
+      "affected_cases": ["CASE-1994-082", "CASE-2003-209", "CASE-2015-188", "CASE-2018-401", "CASE-2024-002"]
+    },
+    {
+      "id": "PAT-02",
+      "title": "Primary Suspect 'The Architect' Network",
+      "type": "Recurring Suspect",
+      "pattern_strength": "High (92%)",
+      "risk_score": 9.1,
+      "description": "Victor Vance (DOB 1968-04-12) linked via DNA, burner phone +1 (312) 555-0188, witness identification, and physical presence to 5 cold cases.",
+      "recurring_entities": ["Victor Vance", "+1 (312) 555-0188", "4400 South Pulaski Rd, Chicago, IL"],
+      "affected_cases": ["CASE-1994-082", "CASE-2007-088", "CASE-2010-099", "CASE-2018-401", "CASE-2024-002"]
+    },
+    {
+      "id": "PAT-03",
+      "title": "Apex Logistics Corporate Front Operations",
+      "type": "Recurring Address / Org",
+      "pattern_strength": "High (89%)",
+      "risk_score": 8.7,
+      "description": "4400 South Pulaski Rd, Chicago IL used as central hub for illegal cargo storage, money laundering, wire fraud transfers, and heist staging.",
+      "recurring_entities": ["4400 South Pulaski Rd", "Apex Storage & Logistics Corp", "Julian Mercer"],
+      "affected_cases": ["CASE-1994-082", "CASE-1998-114", "CASE-2010-099", "CASE-2021-255", "CASE-2025-061"]
+    },
+    {
+      "id": "PAT-04",
+      "title": "Blue Econoline Getaway Vehicle Footprint",
+      "type": "Recurring Vehicle",
+      "pattern_strength": "High (91%)",
+      "risk_score": 8.9,
+      "description": "Dark blue 1991 Ford Econoline van spotted departing crime scenes in Chicago, Baltimore, Seattle, Phoenix, Cleveland, and Indianapolis over 30-year span.",
+      "recurring_entities": ["1991 Blue Ford Econoline Van"],
+      "affected_cases": ["CASE-1994-082", "CASE-2003-209", "CASE-2017-023", "CASE-2018-401", "CASE-2022-019", "CASE-2024-002", "CASE-2025-061"]
+    }
+  ]
+}
