@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 
 const navigationItems = [
-  { name: 'Dashboard', path: '/', icon: LayoutDashboard },
+  { name: 'Dashboard', path: '/dashboard', icon: LayoutDashboard },
   { name: 'Cases', path: '/cases', icon: FolderLock, badge: '20' },
   { name: 'Evidence', path: '/evidence', icon: FileSearch, badge: '100+' },
   { name: 'AI Analysis', path: '/ai-analysis', icon: Cpu, highlight: true },
