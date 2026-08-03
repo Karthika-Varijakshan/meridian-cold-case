@@ -1,6 +1,12 @@
 import axios from 'axios';
 
-const API_BASE_URL = '/api';
+// Local dev: relative '/api' works because vite.config.js proxies it to
+// localhost:5000. In production, the frontend and backend are on
+// different domains (e.g. Vercel + Render), so a relative path can't
+// reach the backend — VITE_API_URL must be set to the deployed backend's
+// full URL (e.g. https://meridian-backend.onrender.com/api) as an
+// environment variable in your hosting provider's dashboard.
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,

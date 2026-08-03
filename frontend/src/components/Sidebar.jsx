@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard,
   FolderLock,
@@ -11,7 +11,8 @@ import {
   FileText,
   Settings,
   ShieldCheck,
-  Zap
+  Zap,
+  LogOut
 } from 'lucide-react';
 
 const navigationItems = [
@@ -27,6 +28,8 @@ const navigationItems = [
 ];
 
 export default function Sidebar() {
+  const navigate = useNavigate();
+
   return (
     <aside className="w-64 bg-[#161B22] border-r border-[#232B36] flex flex-col h-screen sticky top-0 z-30 select-none no-print">
       {/* Brand Header */}
@@ -96,7 +99,7 @@ export default function Sidebar() {
 
       {/* User / Command Footer */}
       <div className="p-4 border-t border-[#232B36] bg-[#0D1016]/40">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3 mb-3">
           <div className="w-8 h-8 rounded-full bg-[#232B36] border border-[#C9902E]/50 flex items-center justify-center font-mono font-bold text-xs text-[#C9902E]">
             INV
           </div>
@@ -105,6 +108,13 @@ export default function Sidebar() {
             <p className="text-[10px] text-gray-500 font-mono truncate">Chicago Homicide Division</p>
           </div>
         </div>
+        <button
+          onClick={() => navigate('/mission-complete', { state: { fromExit: true } })}
+          className="w-full flex items-center justify-center space-x-2 px-3 py-2 rounded-lg border border-[#232B36] text-gray-400 text-xs font-medium hover:border-[#D15B5B]/50 hover:text-[#D15B5B] transition-all"
+        >
+          <LogOut className="w-3.5 h-3.5" />
+          <span>Exit Platform</span>
+        </button>
       </div>
     </aside>
   );

@@ -5,6 +5,7 @@ import Header from './components/Header';
 import CaseModal from './components/CaseModal';
 
 import LandingPage from './pages/LandingPage';
+import MissionComplete from './pages/MissionComplete';
 import Dashboard from './pages/Dashboard';
 import Cases from './pages/Cases';
 import CaseDetails from './pages/CaseDetails';
@@ -62,6 +63,10 @@ function AppShell() {
 
   if (location.pathname === '/') {
     return <LandingPage />;
+  }
+
+  if (location.pathname === '/mission-complete') {
+    return <MissionComplete />;
   }
 
   return <DashboardShell />;

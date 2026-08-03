@@ -39,9 +39,17 @@ def create_app() -> FastAPI:
         version="1.0.0",
     )
 
+    # Local dev: defaults to allowing any origin. In production, set the
+    # ALLOWED_ORIGINS env var to your deployed frontend's URL (comma-separated
+    # for multiple), e.g. ALLOWED_ORIGINS=https://meridian.vercel.app
+    allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "*")
+    allowed_origins = (
+        ["*"] if allowed_origins_env == "*" else [o.strip() for o in allowed_origins_env.split(",")]
+    )
+
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],
+        allow_origins=allowed_origins,
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
